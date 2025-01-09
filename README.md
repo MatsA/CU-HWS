@@ -1,5 +1,13 @@
 # Home Weather Station weather website template for Cumulus/Cumulus MX
 
+# 2025-01-09 Update
+
+Since Ken has archived this weathertemplate and I really like it I will try to keep it alive as long as possible.
+We use it at Domstens Yachtclub and it is really appriciated. https://vader.domsten.nu 
+The mentioned version is hosted at a WEB hotel but I also have it up and <a href="https://pysselilivet.blogspot.com/2017/01/install-weather34-with-weatherlink.html">running on a Raspberry Pi.</a>
+
+MatsA
+
 # NOTE - not recommended for new installs
 
 I've placed this distribution on limited future maintenance, so this is not recommended for new installations.
