@@ -131,20 +131,21 @@ $now = date('G.i');
         }
         //metar conditions
         else echo '<uppercase>', $sky_desc . '</uppercase><br>';
-        ?>
-    </span></div>
-<!-- HOME WEATHER STATION Data-->
-<div class="darkskynexthours">
-    <?php //weather34 average station data
-    
+            
     if ($rainunit == "mm"){
         echo "Visibility <oblue> " . $metar34visibility . " m </oblue>";
     }
     else{
         echo "Visibility <oblue> " . $metar34visibilitymiles . " miles </oblue>";
     }
+        ?>
 
-    echo "<br><ored>$stationlocation</ored>";
+</span></div>
+<!-- HOME WEATHER STATION Data-->
+<div class="darkskynexthours">
+    <?php //weather34 average station data
+
+    echo "<br><br><ored>$stationlocation</ored>";
     echo  "<br>Average Wind Speed last hour ";
 
     if ($weather["wind_speed_avg"] >= 30) {
