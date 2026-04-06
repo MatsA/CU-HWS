@@ -857,7 +857,10 @@ supmb {
 
 .featherlight iframe {
     border: 0;
-    background: 0
+    background: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 550px;
 }
 
 .box.icon-humidity,
@@ -4268,6 +4271,7 @@ a:hover {
         font-family: arial, system;
         overflow: hidden
     }
+
     .a,
     .c,
     .chart,
@@ -4293,12 +4297,14 @@ a:hover {
     header {
         display: none
     }
+
     .weather-item {
         float: none;
         width: 310px;
         margin: 10px auto 0;
         overflow: hidden
     }
+
     #icon {
         width: 55px;
         height: 43px;
@@ -4306,6 +4312,7 @@ a:hover {
         padding: 5px;
         margin: 0 10px -5px
     }
+
     .c {
         width: auto;
         left: 40px;
@@ -4325,6 +4332,7 @@ a:hover {
         font-family: arial, system;
         overflow: hidden
     }
+
     .a,
     .c,
     .chart,
@@ -4349,12 +4357,14 @@ a:hover {
     header {
         display: none
     }
+
     .weather-item {
         float: none;
         width: 310px;
         margin: 10px auto 0;
         overflow: hidden
     }
+
     .c {
         width: auto;
         left: 40px;
@@ -4371,6 +4381,7 @@ a:hover {
         font-family: arial, system;
         overflow: hidden
     }
+
     .a,
     .c,
     .chart,
@@ -4395,12 +4406,14 @@ a:hover {
     header {
         display: none
     }
+
     .weather-item {
         float: none;
         width: 310px;
         margin: 10px auto 0;
         overflow: hidden
     }
+
     #icon {
         width: 55px;
         height: 43px;
@@ -4408,6 +4421,7 @@ a:hover {
         padding: 5px;
         margin: 0 0 0 10px
     }
+
     .c {
         width: auto;
         left: 40px;
@@ -5033,6 +5047,7 @@ wuhourforecastemp {
     0 {
         -webkit-transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg)
     }
@@ -5042,6 +5057,7 @@ wuhourforecastemp {
     0 {
         transform: rotate(0)
     }
+
     100% {
         transform: rotate(360deg)
     }
@@ -5061,6 +5077,7 @@ wuhourforecastemp {
     0 {
         -webkit-transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg)
     }
@@ -5070,6 +5087,7 @@ wuhourforecastemp {
     0 {
         transform: rotate(0)
     }
+
     100% {
         transform: rotate(360deg)
     }
@@ -8510,6 +8528,7 @@ strongnumbers {
         display: block;
         height: 0
     }
+
     .clock-container,
     .homeindoordate,
     .menuclock,
@@ -8519,6 +8538,7 @@ strongnumbers {
     ogreyh1 {
         display: none
     }
+
     .newweather34menu {
         width: 30px;
         height: 24px;
@@ -8537,6 +8557,7 @@ strongnumbers {
         display: block;
         height: 0
     }
+
     .clock-container,
     .homeindoordate,
     .menuclock,
@@ -8546,6 +8567,7 @@ strongnumbers {
     ogreyh1 {
         display: none
     }
+
     .newweather34menu {
         width: 30px;
         height: 24px;
@@ -9907,7 +9929,7 @@ suplight {
 
 .darkskydiv {
     width: 300px;
-    overflow: hidden!important;
+    overflow: hidden !important;
     height: 180px;
     margin-top: 10px
 }
@@ -9924,7 +9946,7 @@ suplight {
     background-color: none;
     border: 1px solid rgba(153, 155, 156, .1);
     color: rgba(2, 29, 62, .8);
-    overflow: hidden!important
+    overflow: hidden !important
 }
 
 .darkskyforecasthome darkskytemphihome,
@@ -11552,9 +11574,11 @@ weather34-barometerlimitmaxf {
     0% {
         opacity: 2
     }
+
     50% {
         opacity: 1
     }
+
     100% {
         opacity: 0
     }
@@ -11564,9 +11588,11 @@ weather34-barometerlimitmaxf {
     0% {
         opacity: 2
     }
+
     50% {
         opacity: 1
     }
+
     100% {
         opacity: 0
     }
@@ -12765,7 +12791,7 @@ smallwindunit {
     margin-left: 11px;
     margin-top: 34px;
     font-size: 1.4rem;
-    color: rgba(86, 95, 103, .1);
+    color: #333;
     width: 200px;
     font-family: weathertext, Arial, system
 }
